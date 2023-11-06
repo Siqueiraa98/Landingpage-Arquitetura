@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    font-family: "inter"
+}
+
+#menuprincipal{
+    background-color: #303030;
+    color: #FFF;
+}
+
+#titulo{
+    padding-top: 206px;
+    margin-left: 62px;
+    font-size: 60px;
+}
+
+#texto{
+    padding-top: 20px;
+    padding-bottom: 149px;
+    margin-left: 62px;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.secaoPainel{
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+
+#one{
+    margin-left: 171px;
+}
+
+#two{
+    padding-left: 99px;
+}
+
+#three{
+    padding-left: 99px;
+    padding-right: 64px;
+}
+#menuexperiencia{
+    background-color: #FFF;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#tituloexperiencia{
+    padding-top: 284px;
+    margin-left: 77px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 50% */
+}
+
+#textoexperiencia{
+    padding-top: 30px;
+    margin-left: 77px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#imagemsala{
+    margin-top: 82px;
+    padding-left: 63px;
+    padding-bottom: 92px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#tituloformulario{
+    color: #FFF;
+    padding-top: 87px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #FFF;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+#nome{
+    margin-top: 48px;
+}
+
+#email{
+    margin-top: 62px;
+}
+
+button{
+    margin-top: 88px;
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #FFF;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c8791a;
+    transform: translateY(0.5px)
+} 
